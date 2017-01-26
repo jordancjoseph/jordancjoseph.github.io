@@ -1,8 +1,6 @@
-''''CSS
-
 body {
-    background: rgb(100,200,195);
-    color: rgb(45,45,45);
+    background: rgb(100, 200, 195);
+    color: rgb(45, 45, 45);
     padding: 10px;
     font-family: arial;
 }
@@ -12,16 +10,16 @@ header {
     font-weight: bold;
 }
 
-[id=allcontents] {
+[id=all-contents] {
     max-width: 800px;
     margin: auto;
 }
 
 
-/*Main navigation menu*/
+/* Main navigation menu */
 
 nav {
-    background: rgb(200,95,100);
+    background: rgb(200, 95, 100);
     margin: 0 auto;
     display: flex;
     padding: 10px;
@@ -30,7 +28,7 @@ nav {
 nav header {
     display: flex;
     align-items: center;
-    color: rgb(255,255,255);
+    color: rgb(255, 255, 255);
     flex: 1;
 }
 
@@ -38,7 +36,7 @@ nav ul {
     list-style-image: none;
 }
 
-nav li{
+nav li {
     display: inline-block;
     padding: 0 10px;
 }
@@ -46,12 +44,13 @@ nav li{
 nav a {
     text-decoration: none;
     color: #fff;
-    
 }
+
+
 /* Main container area beneath menu */
 
-main{
-    background: rgb(245,238,219);
+main {
+    background: rgb(245, 238, 219);
     display: flex;
     flex-direction: column;
 }
@@ -59,11 +58,10 @@ main{
 [class=sidebar] {
     margin-right: 25px;
     padding: 10px;
-    
 }
 
 [class=sidebar] img {
-    width:200px;
+    width: 200px;
 }
 
 [class=content] {
